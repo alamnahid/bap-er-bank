@@ -10,7 +10,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passwordField.value;
     
     // step 4: verify email address 
-    if(email==='nahid@gmail.com' && password==='1234'){
+    if((email==='nahid@gmail.com' && password==='1234') || (email==='jui@gmail.com' && password==='1234')){
         window.location.href='bank.html';
     }
     else{
